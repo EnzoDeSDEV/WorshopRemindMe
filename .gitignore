@@ -1,0 +1,18 @@
+# Ignorer les fichiers de configuration locales
+wp-config.php
+wp-content/uploads
+wp-content/upgrade
+wp-content/cache
+wp-content/backup
+wp-content/advanced-cache.php
+
+# Ignorer les plugins et thèmes par défaut
+wp-content/plugins/*
+!wp-content/plugins/mon-plugin-personnalise/
+wp-content/themes/*
+!wp-content/themes/mon-theme-personnalise/
+
+# Ignorer les fichiers temporaires ou système
+.DS_Store
+Thumbs.db
+*.log
